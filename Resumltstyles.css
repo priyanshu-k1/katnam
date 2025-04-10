@@ -70,7 +70,6 @@ p {
     height: 100%;
     top: 0;
     pointer-events: none;
-    background-image: url('https://i.imgur.com/8D5KLcX.gif');
     background-size: cover;
     opacity: 0.6;
 }
