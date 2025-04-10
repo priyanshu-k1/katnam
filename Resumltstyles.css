@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #00c9ff, #92fe9d);
+    animation: bgGlow 6s ease-in-out infinite alternate;
+    overflow: hidden;
+}
+
+@keyframes bgGlow {
+    from {
+        filter: brightness(1);
+    }
+    to {
+        filter: brightness(1.15);
+    }
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    animation: popIn 1s ease forwards;
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    animation: shine 2s ease-in-out infinite;
+}
+
+@keyframes shine {
+    0% {
+        text-shadow: 0 0 10px #4CAF50;
+    }
+    50% {
+        text-shadow: 0 0 20px #76ff03, 0 0 40px #00e676;
+    }
+    100% {
+        text-shadow: 0 0 10px #4CAF50;
+    }
+}
+
+p {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.confetti {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    pointer-events: none;
+    background-image: url('https://i.imgur.com/8D5KLcX.gif');
+    background-size: cover;
+    opacity: 0.6;
+}

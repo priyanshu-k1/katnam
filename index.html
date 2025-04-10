@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find My Katnam</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="main">
+        <h1 class="heading">Katnam for  Everyone</h1>
+        <p class="site-quote">Empowering every background, enabling every dream.</p>
+        <form id="dataForm">
+            <label for="name">Enter your name</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="age">Enter your age</label>
+            <input type="number" id="age" name="age" required>
+        
+            <p>Highest level of education:</p>
+            <div class="checkbox-group">
+                <label><input type="radio" name="education" value=0>none</label>
+                <label><input type="radio" name="education" value="10th">10th</label>
+                <label><input type="radio" name="education" value="12th">12th</label>
+                <label><input type="radio" name="education" value="UG">UG</label>
+                <label><input type="radio" name="education" value="PG">PG</label>
+            </div>
+        
+            <label for="qualification">Qualification (e.g., B.Tech)</label>
+            <input type="text" id="qualification" name="qualification">
+        
+            <label for="salary">Salary</label>
+            <input type="number" id="salary" name="salary">
+        
+            <label for="properties">Properties Owned</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="properties" value="None">None</label>
+                <label><input type="checkbox" name="properties" value="Land">Land</label>
+                <label><input type="checkbox" name="properties" value="Flat">Flat</label>
+                <label><input type="checkbox" name="properties" value="House">House</label>
+                <label><input type="checkbox" name="properties" value="Commercial">Commercial</label>
+                <label><input type="checkbox" name="properties" value="Agricultural">Agricultural</label>
+                <label><input type="checkbox" name="properties" value="Plot">Plot</label>
+                <label><input type="checkbox" name="properties" value="Villa">Villa</label>
+                <label><input type="checkbox" name="properties" value="Duplex">Duplex</label>
+                <label><input type="checkbox" name="properties" value="Farmhouse">Farmhouse</label>
+                <label><input type="checkbox" name="properties" value="Industrial">Industrial</label>
+                <label><input type="checkbox" name="properties" value="Warehouse">Warehouse</label>
+                <label><input type="checkbox" name="properties" value="Shop">Shop</label>
+                <label><input type="checkbox" name="properties" value="Other">Other</label>
+            </div>
+        
+            <label for="caste">Caste</label>
+            <select id="caste" name="caste">
+                <option value="" disabled selected>Select your caste</option>
+                <option value="Kamma">Kamma</option>
+                <option value="Reddy">Reddy</option>
+                <option value="Kapu">Kapu</option>
+                <option value="Velama">Velama</option>
+                <option value="Brahmin">Brahmin</option>
+                <option value="Yadav">Yadav</option>
+                <option value="Madiga">Madiga</option>
+                <option value="Mala">Mala</option>
+                <option value="Goud">Goud</option>
+                <option value="Balija">Balija</option>
+                <option value="None">None</option>
+            </select>
+        
+            <label for="category">Category</label>
+            <select id="category" name="category">
+                <option value="" disabled selected>Select your category</option>
+                <option value="General">General (OC)</option>
+                <option value="OBC">OBC</option>
+                <option value="SC">SC</option>
+                <option value="ST">ST</option>
+                <option value="EWS">EWS</option>
+                <option value="None">None</option>
+            </select>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+        
+
+    </div>
+ 
+
+    <script src="script.js"></script>
+</body>
+</html>

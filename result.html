@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katnam Result</title>
+    <link rel="stylesheet" href="Resumltstyles.css">
+</head>
+<body>
+    <div class="confetti"></div>
+    <div class="container">
+        <h1>🎉 Congratulations! 🎉</h1>
+        <p id="resultText">You are entitled for ₹0 Katnam.</p>
+    </div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const amount = params.get('amount') || 0;
+
+        document.getElementById('resultText').textContent = 
+            `You are entitled for ₹${parseInt(amount).toLocaleString()} Katnam.`;
+    </script>
+    
+</body>
+</html>
