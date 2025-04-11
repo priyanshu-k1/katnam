@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let amount = 0;
 
         // Collecting form values
+        const name = formData.get('name')?.toLowerCase() || "You";
         const age = parseInt(formData.get('age')) || 0;
         const education = formData.get('education')?.toLowerCase() || "";
         const qualification = formData.get('qualification')?.toLowerCase() || "";
@@ -87,6 +88,6 @@ document.addEventListener('DOMContentLoaded', () => {
         else if (["general", "oc"].includes(category)) amount += 50000;
         console.log("Amount: ", amount);
         // Redirect to result page with amount as query param
-        window.location.href = `result.html?amount=${amount}`;
+        window.location.href = `result.html?amount=${amount}&name=${encodeURIComponent(name)}`;
     });
 });

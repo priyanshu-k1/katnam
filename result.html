@@ -7,18 +7,23 @@
     <link rel="stylesheet" href="Resumltstyles.css">
 </head>
 <body>
-    <div class="confetti"></div>
     <div class="container">
-        <h1>🎉 Congratulations! 🎉</h1>
+        <h3>🎉 Congratulations! 🎉</h3>
         <p id="resultText">You are entitled for ₹0 Katnam.</p>
     </div>
 
     <script>
         const params = new URLSearchParams(window.location.search);
         const amount = params.get('amount') || 0;
+        const name = params.get('name') || "You";
 
-        document.getElementById('resultText').textContent = 
-            `You are entitled for ₹${parseInt(amount).toLocaleString()} Katnam.`;
+        if(name=="You"){
+            document.getElementById('resultText').textContent = 
+                `You are entitled for ₹${parseInt(amount).toLocaleString()} Katnam.`;
+        } else {
+            document.getElementById('resultText').textContent = 
+                `${name.charAt(0).toUpperCase() + name.slice(1)}, you are entitled for ₹${parseInt(amount).toLocaleString()} Katnam.`;
+        }
     </script>
     
 </body>
