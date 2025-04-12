@@ -1,11 +1,10 @@
 # Katnam Calculator (Just for Fun!)
-*live link:* [](https://github.com/priyanshu-k1/katnam)
+*live link:* [https://priyanshu-k1.github.io/katnam/](https://priyanshu-k1.github.io/katnam/)
 [![GitHub Stars](https://img.shields.io/github/stars/priyanshu-k1/katnam?style=social)](https://github.com/priyanshu-k1/katnam)
 [![GitHub Forks](https://img.shields.io/github/forks/priyanshu-k1/katnam?style=social)](https://github.com/priyanshu-k1/katnam)
 [![GitHub Pull Requests](https://img.shields.io/github/pulls/priyanshu-k1/katnam)](https://github.com/priyanshu-k1/katnam/pulls)
 
-*Link to Project:* [https://priyanshu-k1.github.io/katnam/](https://priyanshu-k1.github.io/katnam/)
-
+*Link to Project:* [https://github.com/priyanshu-k1/katnam](https://github.com/priyanshu-k1/katnam)
 ## About
 
 This is a small, fun front-end project that allows you to playfully "calculate" the hypothetical katnam (dowry) amount. *Please note that this project is purely for entertainment purposes and does not endorse or encourage the practice of dowry, which is illegal and harmful.*
