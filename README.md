@@ -1,9 +1,9 @@
 # Katnam Calculator (Just for Fun!)
+![Cover Image](https://github.com/priyanshu-k1/katnam/blob/main/res/cover-pic.png)
+##
 *live link:* [https://priyanshu-k1.github.io/katnam/](https://priyanshu-k1.github.io/katnam/)
-
-
 *Link to Project:* [https://github.com/priyanshu-k1/katnam](https://github.com/priyanshu-k1/katnam)
-
+##
 [![GitHub Stars](https://img.shields.io/github/stars/priyanshu-k1/katnam?style=social)](https://github.com/priyanshu-k1/katnam)
 [![GitHub Forks](https://img.shields.io/github/forks/priyanshu-k1/katnam?style=social)](https://github.com/priyanshu-k1/katnam)
 
