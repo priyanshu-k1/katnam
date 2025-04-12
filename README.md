@@ -27,4 +27,5 @@ Think of it as a lighthearted way to explore different factors and see how they 
 
 As this is a small, personal project created for fun, contributions are not actively being sought at this time. However, if you have any minor suggestions or find a small bug, feel free to open an issue.
 *Enjoy the playful exploration! Remember, this is all in good fun and not to be taken seriously.*
+##
 *Developed with ❤️ by Priyanshu Kumar*
